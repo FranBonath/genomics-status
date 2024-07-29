@@ -32,6 +32,11 @@ class ControlsHandler(SafeHandler):
             ['Workset Projects', 'workset_projects'],
             ['Library Prep Status', 'prep_status'],
             ['Flowcell(s)', 'sequenced_fc'],
+            ['Basic bioinfo QC', 'basicQC'],
+            #['Request BP', 'request_bp'],
+            #['BP protocol', 'bp_protocol'],
+            #['BP reference(s)', 'bp_ref'],
+            #['BP result',  'bp_result'],
         ]
 
         #anything in here is used to create the .html page. In essence, anything listed here can be accessed in /controls.html
